@@ -1,0 +1,90 @@
+/*all elements*/
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+/* Define the colors */
+:root {
+    --deep-blue: #41436A;
+    --plum-purple: #974063;
+    --coral-pink: #f54768;
+    --peach: #ff9677;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+  body{
+    font-size: 1.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+
+  .log-details{
+    border: 1px solid var(--deep-blue);
+    border-right: 0;
+  }
+
+.log-details,.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .img,.log-details{
+    width: 35rem;
+    height: 35rem;
+  }
+
+.remember-me{
+    width: 100%;
+}
+
+  /*IMAGES*/
+  .login-img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+  }
+  .logo{
+    width: 100%;
+    height: 6rem;
+  }
+
+  /*inputs*/
+  .input{
+    padding: 1rem;
+    font-size: 1.8rem;
+    outline: 0;
+    border: 0.2px solid #ccc;
+  }
+  .input:hover{
+    outline: 0;
+  }
+
+  .inputs .input{
+    margin:1rem 0;
+  }
+
+ /*buttons*/
+ .btn{
+    width: 100%;
+ }
+
+  /*forms*/
+  .login-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*sections*/
+  .log-sect{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
